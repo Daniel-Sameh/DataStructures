@@ -50,12 +50,7 @@ public:
         }
     }
     bool isEmpty(){
-        if(size==0){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return size==0;
     }
     int QueueSize(){
         return size;
