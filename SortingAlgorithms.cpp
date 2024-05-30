@@ -152,6 +152,7 @@ void firstPivotQuickSort(T a[],int left, int right){
     firstPivotQuickSort(a,pivot+1,right);
 }
 int main() {
+    dodo;
     int arr[]={2,8,5,9,4,3,1};
 //    int a[]={1,12,5,26,7,14,3,7,2};
     int a[]={5,3,0,10,2};
