@@ -135,7 +135,7 @@ void postOrder(node<int>* p){
         postorderVec.push_back(p->data);
     }
 }
-void traverseBST(node<int>* head){
+/*void traverseBST(node<int>* head){
 
     if(head->left){
         traverseBST(head->left);
@@ -151,7 +151,7 @@ void traverseBST(node<int>* head){
     }else{
         return;
     }
-}
+}*/
 
 
 int main() {
